@@ -4,7 +4,7 @@ import windr.LeetCodeKt.Problems.Solution
 import java.util.*
 
 /**
- * @see <a href="https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/">1. Remove Duplicates from Sorted Array</a>
+ * @see <a href="https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/">26. Remove Duplicates from Sorted Array</a>
  */
 fun Solution.removeDuplicates(nums: IntArray): Int {
     var ret = 0

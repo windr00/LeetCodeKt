@@ -4,6 +4,7 @@ import org.apache.commons.io.FileUtils
 import org.junit.BeforeClass
 import org.junit.Test
 import windr.LeetCodeKt.Problems.Array.Easy.testRemoveDuplicatesFromSotedArray
+import windr.LeetCodeKt.Problems.Array.Easy.testRemoveElement
 import windr.LeetCodeKt.Problems.Array.Easy.testTwoSum
 import java.io.File
 import java.io.InputStreamReader
@@ -91,6 +92,7 @@ class TestBase {
     fun testAll() {
         testTwoSum()
         testRemoveDuplicatesFromSotedArray()
+        testRemoveElement()
     }
 
 }
