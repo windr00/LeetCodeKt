@@ -5,6 +5,7 @@ import org.junit.BeforeClass
 import org.junit.Test
 import windr.LeetCodeKt.Problems.Array.Easy.testRemoveDuplicatesFromSotedArray
 import windr.LeetCodeKt.Problems.Array.Easy.testRemoveElement
+import windr.LeetCodeKt.Problems.Array.Easy.testSearchInsertPosition
 import windr.LeetCodeKt.Problems.Array.Easy.testTwoSum
 import java.io.File
 import java.io.InputStreamReader
@@ -13,7 +14,7 @@ import java.nio.file.Files
 import java.nio.file.Path
 import java.nio.file.StandardCopyOption
 
-class TestBase {
+class SolutionTest {
 
 
     companion object {
@@ -93,6 +94,7 @@ class TestBase {
         testTwoSum()
         testRemoveDuplicatesFromSotedArray()
         testRemoveElement()
+        testSearchInsertPosition()
     }
 
 }

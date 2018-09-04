@@ -1,10 +1,10 @@
 package windr.LeetCodeKt.Problems.Array.Easy
 
 import windr.LeetCodeKt.Problems.Solution
-import windr.LeetCodeKt.TestBase
+import windr.LeetCodeKt.SolutionTest
 import java.util.*
 
-fun TestBase.testRemoveElement() {
+fun SolutionTest.testRemoveElement() {
     val nums = intArrayOf(0, 1, 2, 2, 3, 0, 4, 2)
     val `val` = 2
     val ret = Solution.removeElement(nums, `val`)
