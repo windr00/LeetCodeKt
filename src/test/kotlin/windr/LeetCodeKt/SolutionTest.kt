@@ -94,6 +94,7 @@ class SolutionTest {
         testSearchInsertPosition()
         testMaxSubArray()
         testPlusOne()
+        testMergeSortedArray()
     }
 
 }
