@@ -3,10 +3,7 @@ package windr.LeetCodeKt
 import org.apache.commons.io.FileUtils
 import org.junit.BeforeClass
 import org.junit.Test
-import windr.LeetCodeKt.Problems.Array.Easy.testRemoveDuplicatesFromSotedArray
-import windr.LeetCodeKt.Problems.Array.Easy.testRemoveElement
-import windr.LeetCodeKt.Problems.Array.Easy.testSearchInsertPosition
-import windr.LeetCodeKt.Problems.Array.Easy.testTwoSum
+import windr.LeetCodeKt.Problems.Array.Easy.*
 import java.io.File
 import java.io.InputStreamReader
 import java.net.URL
@@ -95,6 +92,7 @@ class SolutionTest {
         testRemoveDuplicatesFromSotedArray()
         testRemoveElement()
         testSearchInsertPosition()
+        testMaxSubArray()
     }
 
 }
