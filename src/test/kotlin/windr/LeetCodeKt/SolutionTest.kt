@@ -93,6 +93,7 @@ class SolutionTest {
         testRemoveElement()
         testSearchInsertPosition()
         testMaxSubArray()
+        testPlusOne()
     }
 
 }
