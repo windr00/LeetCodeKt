@@ -95,6 +95,7 @@ class SolutionTest {
         testMaxSubArray()
         testPlusOne()
         testMergeSortedArray()
+        testPascalsTriangle()
     }
 
 }
