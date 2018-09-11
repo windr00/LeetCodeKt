@@ -96,6 +96,7 @@ class SolutionTest {
         testPlusOne()
         testMergeSortedArray()
         testPascalsTriangle()
+        testPascalsTriangleII()
     }
 
 }
