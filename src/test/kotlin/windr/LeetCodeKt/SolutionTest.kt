@@ -97,6 +97,8 @@ class SolutionTest {
         testMergeSortedArray()
         testPascalsTriangle()
         testPascalsTriangleII()
+        testBestTimeToBuyAndSellStock()
+        testBestTimeToBuyAndSellStockII()
     }
 
 }
