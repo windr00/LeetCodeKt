@@ -100,6 +100,7 @@ class SolutionTest {
         testBestTimeToBuyAndSellStock()
         testBestTimeToBuyAndSellStockII()
         testRomanToInteger()
+        testTwoSum2()
     }
 
 }
