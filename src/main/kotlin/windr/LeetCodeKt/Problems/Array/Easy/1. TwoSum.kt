@@ -8,7 +8,7 @@ import windr.LeetCodeKt.Problems.Solution
 fun Solution.twoSum(nums: IntArray, target: Int): IntArray {
     val ret = intArrayOf(0, 0)
     run {
-        (0 until nums.size).forEach { outter ->
+        repeat(nums.size) { outter ->
             (outter + 1 until nums.size).forEach { inner ->
                 if (nums[outter] + nums[inner] == target) {
                     ret[0] = outter
